@@ -1,0 +1,7 @@
+{
+  "name": "ranked-gaming",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

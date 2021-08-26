@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "ranked-gaming",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
