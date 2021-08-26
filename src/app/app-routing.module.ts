@@ -14,7 +14,19 @@ const routes: Routes = [
   {
     path: 'user',
     loadChildren: () => import('./user/user.module').then( m => m.UserPageModule)
+  },  {
+    path: 'team',
+    loadChildren: () => import('./team/team.module').then( m => m.TeamPageModule)
+  },
+  {
+    path: 'tournament',
+    loadChildren: () => import('./tournament/tournament.module').then( m => m.TournamentPageModule)
+  },
+  {
+    path: 'ranking',
+    loadChildren: () => import('./ranking/ranking.module').then( m => m.RankingPageModule)
   }
+
 ];
 
 @NgModule({
